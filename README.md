@@ -20,17 +20,18 @@ This repository contains the code, final models, and figures for the "Deep Learn
 
 ```
 .
-├── DLAI_Project.ipynb      <-- The main Google Colab notebook.
-│
-├── grid_vae.pt             <-- Trained weights for the GridVAE (Method A).
-├── transformer_A.pt        <-- Trained weights for the Transformer of Method A.
-├── vq_model_stable.pt      <-- Trained weights for the stable VQ-VAE (Method B).
-├── transformer_B.pt        <-- Trained weights for the Transformer of Method B.
-│
-├── clustering_comparison.jpg <-- Figure: Geodesic vs. Euclidean clustering.
-├── codebook_utilization.png  <-- Figure: Codebook utilization comparison.
-├── reconstruction.png        <-- Figure: Reconstruction quality comparison.
-└── sample_fidelity.png       <-- Figure: Generated sample fidelity comparison.
+└── DLAI_project/
+    ├── DLAI_Project.ipynb      <-- The main Google Colab notebook.
+    │
+    ├── grid_vae.pt             <-- Trained weights for the GridVAE (Method A).
+    ├── transformer_A.pt        <-- Trained weights for the Transformer of Method A.
+    ├── vq_model_stable.pt      <-- Trained weights for the stable VQ-VAE (Method B).
+    ├── transformer_B.pt        <-- Trained weights for the Transformer of Method B.
+    │
+    ├── clustering_comparison.jpg <-- Figure: Geodesic vs. Euclidean clustering.
+    ├── codebook_utilization.png  <-- Figure: Codebook utilization comparison.
+    ├── reconstruction.png        <-- Figure: Reconstruction quality comparison.
+    └── sample_fidelity.png       <-- Figure: Generated sample fidelity comparison.
 ```
 
 ## How to Run
