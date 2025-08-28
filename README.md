@@ -2,7 +2,7 @@
 
 # VQ-VAE a Posteriori with Geodesic Quantization
 
-This repository contains the code, final models, and figures for the "Deep Learning and Applied AI" course project. The project explores an innovative method for a posteriori vector quantization in a Variational Autoencoder's (VAE) latent space using geodesic distances, and compares it against a standard end-to-end VQ-VAE pipeline.
+This repository contains the code, final models, and figures for the "Deep Learning and Applied AI" course. The project explores an innovative method for a posteriori vector quantization in a Variational Autoencoder's (VAE) latent space using geodesic distances, and compares it against a standard end-to-end VQ-VAE pipeline.
 
 ## Key Concepts Explored
 
@@ -21,7 +21,7 @@ This repository contains the code, final models, and figures for the "Deep Learn
 ```
 .
 └── DLAI_project/
-    ├── DLAI_Project.ipynb      <-- The main Google Colab notebook.
+    ├── DLAI_Project.ipynb      <-- The main notebook.
     │
     ├── grid_vae.pt             <-- Trained weights for the GridVAE (Method A).
     ├── transformer_A.pt        <-- Trained weights for the Transformer of Method A.
@@ -38,11 +38,9 @@ This repository contains the code, final models, and figures for the "Deep Learn
 
 The project is contained entirely within the `DLAI_Project.ipynb` notebook and is designed to be run in Google Colab.
 
-1.  Open the `DLAI_Project.ipynb` file in Google Colab.
-2.  Ensure you are using a **GPU-accelerated runtime** (`Runtime` -> `Change runtime type` -> `T4 GPU`).
-3.  **Run the first cell (Environment Setup)**. This cell will install the specific library versions required and then force an automatic kernel restart. **This is expected behavior.**
-4.  **Wait for the kernel to restart**. You will see the RAM/Disk indicators in the top-right corner reconnect.
-5.  Once reconnected, **run all subsequent cells in order**, starting from the second cell (the one that mounts Google Drive). The notebook will then execute the full training and analysis pipeline for both methods.
+1.  **Run the first cell (Environment Setup)**. This cell will install the specific library versions required and then force an automatic kernel restart. **This is expected behavior.**
+2.  **Wait for the kernel to restart**. You will see the RAM/Disk indicators in the top-right corner reconnect.
+3.  Once reconnected, **run all subsequent cells in order**, starting from the second cell . The notebook will then execute the full training and analysis pipeline for both methods.
 
 ## Summary of Results
 
